@@ -43,7 +43,7 @@ if [[ ${CMD} == "run" ]]; then
     DIR=`pwd`
     HOST=`uname -n`
 
-    docker run -it \
+    docker run --rm -it \
     --name ${APP} \
     --network host \
     -v ~/.ssh:/root/.ssh \
