@@ -1,0 +1,13 @@
+---
+version: '3'
+
+services:
+  ros2:
+    build: .
+    image: walchko/ros2-rolling-jammy-base:0.1
+    container_name: ros2
+    ports:
+      - 2222:22/tcp
+    hostname: ros2
+    volumes:
+      - ./apps:/apps

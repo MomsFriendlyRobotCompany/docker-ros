@@ -1,4 +1,23 @@
-# ROS in Docker
+![](rolling.png)
+
+# ROS2 in Docker
+
+[docs](https://docs.ros.org/)
+
+## `docker-compose`
+
+```
+docker-compose build
+docker-compose up
+
+ssh -p 2222 kevin@0.0.0.0
+
+. /opt/ros/rolling/setup.bash
+```
+
+This image uses a super secret username `kevin` and password `kevin` ... don't tell anyone!
+
+## `docker`
 
 The basics are [here](http://wiki.ros.org/docker/Tutorials/Docker) on the
 ros wiki website.
