@@ -8,7 +8,7 @@
 
 ```
 docker-compose build
-docker-compose up
+docker-compose up -d
 
 ssh -p 2222 kevin@0.0.0.0
 
